@@ -8,6 +8,7 @@ import { AppDrawerNavigator } from './components/AppDrawerNavigator'
 export default function App() {
   return (
     <AppContainer/>
+    
   );
 }
 

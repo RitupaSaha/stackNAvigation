@@ -42,7 +42,7 @@ export default class BookRequestScreen extends Component{
         reasonToRequest : ''
     })
 
-    return Alert.alert("Book Requested Successfully")
+    return alert("Book Requested Successfully")
   }
 
 

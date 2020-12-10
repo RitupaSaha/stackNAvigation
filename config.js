@@ -1,16 +1,15 @@
 import firebase from 'firebase';
 require('@firebase/firestore')
 
-var firebaseConfig = {
-    apiKey: "AIzaSyASyOjOtJla-X-b3io2eLoaUc_bIRFSIIc",
-    authDomain: "book-santa-app.firebaseapp.com",
-    databaseURL: "https://book-santa-app.firebaseio.com",
-    projectId: "book-santa-app",
-    storageBucket: "book-santa-app.appspot.com",
-    messagingSenderId: "69634746716",
-    appId: "1:69634746716:web:6fbbfc110fb4475365f999",
-    measurementId: "G-DLB7XC0JPL"
-  };
+const firebaseConfig = {
+  apiKey: "AIzaSyCODgBpAqcN19tiSM60zRIj3eZNHT9fj7c",
+  authDomain: "booksanta-29663.firebaseapp.com",
+  databaseURL: "https://booksanta-29663.firebaseio.com",
+  projectId: "booksanta-29663",
+  storageBucket: "booksanta-29663.appspot.com",
+  messagingSenderId: "24346230491",
+  appId: "1:24346230491:web:d13769be36c4a4879a16fe"
+};
 
 
 // Initialize Firebase

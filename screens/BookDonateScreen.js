@@ -45,6 +45,7 @@ export default class BookDonateScreen extends Component{
         rightElement={
             <TouchableOpacity style={styles.button}
               onPress ={()=>{
+                alert("View pressed")
                 this.props.navigation.navigate("RecieverDetails",{"details": item})
               }}
               >
@@ -85,7 +86,7 @@ export default class BookDonateScreen extends Component{
 const styles = StyleSheet.create({
   subContainer:{
     flex:1,
-    fontSize: 20,
+    
     justifyContent:'center',
     alignItems:'center'
   },

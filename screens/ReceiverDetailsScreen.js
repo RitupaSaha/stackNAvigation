@@ -8,6 +8,7 @@ import db from '../config.js';
 export default class RecieverDetailsScreen extends Component{
   constructor(props){
     super(props);
+    alert("Reciever screen")
     this.state={
       userId          : firebase.auth().currentUser.email,
       recieverId      : this.props.navigation.getParam('details')["user_id"],
@@ -69,7 +70,7 @@ componentDidMount(){
             backgroundColor = "#eaf8fe"
           />
         </View>
-        <View style={{flex:0.3}}>
+        <View style={{flex:0.7}}>
           <Card
               title={"Book Information"}
               titleStyle= {{fontSize : 20}}
